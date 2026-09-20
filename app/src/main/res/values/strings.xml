@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">CalculaFácil</string>
+
+    <!-- Home -->
+    <string name="home_title">CalculaFácil</string>
+    <string name="home_subtitle">Soluções rápidas para o dia a dia</string>
+    <string name="home_search_hint">Buscar calculadora…</string>
+    <string name="home_all">Todas</string>
+    <string name="home_no_results">Nenhuma calculadora encontrada</string>
+
+    <!-- Categorias -->
+    <string name="category_finance">Financeiras</string>
+    <string name="category_labor">Trabalhistas</string>
+    <string name="category_health">Saúde</string>
+    <string name="category_vehicle">Veículo &amp; Cotidiano</string>
+    <string name="category_converter">Conversores</string>
+    <string name="category_education">Educação</string>
+
+    <!-- Ações gerais -->
+    <string name="action_calculate">Calcular</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_back">Voltar</string>
+    <string name="currency_symbol">R$</string>
+    <string name="percent_symbol">%</string>
+
+    <!-- Erros e validação -->
+    <string name="error_invalid_number">Digite um número válido.</string>
+    <string name="error_required">Preencha todos os campos.</string>
+    <string name="error_number_too_large">Número muito grande.</string>
+    <string name="error_zero_divisor">O divisor não pode ser zero.</string>
+    <string name="error_conversion">Não foi possível realizar a conversão. A taxa da moeda pode não estar disponível.</string>
+    <string name="error_invalid_date">Data inválida.</string>
+    <string name="error_future_date">A data não pode estar no futuro.</string>
+
+    <!-- Sufixos de resultado -->
+    <string name="suffix_years">anos</string>
+    <string name="suffix_kcal">kcal</string>
+    <string name="suffix_liters">L</string>
+    <string name="suffix_km_per_l">km/l</string>
+
+    <!-- ============ CALCULADORAS ============ -->
+
+    <!-- Porcentagem -->
+    <string name="calc_percent_title">Porcentagem</string>
+    <string name="calc_percent_desc">Quanto é X% de um valor?</string>
+    <string name="calc_percent_field_value">Valor</string>
+    <string name="calc_percent_field_pct">Porcentagem (%)</string>
+    <string name="calc_percent_result">Resultado</string>
+
+    <!-- Desconto -->
+    <string name="calc_discount_title">Desconto</string>
+    <string name="calc_discount_desc">Calcule o preço com desconto</string>
+    <string name="calc_discount_field_price">Preço original</string>
+    <string name="calc_discount_field_pct">Desconto (%)</string>
+    <string name="calc_discount_amount">Valor do desconto</string>
+    <string name="calc_discount_final">Preço final</string>
+
+    <!-- Aumento -->
+    <string name="calc_increase_title">Aumento</string>
+    <string name="calc_increase_desc">Calcule o novo valor após aumento</string>
+    <string name="calc_increase_field_value">Valor original</string>
+    <string name="calc_increase_field_pct">Aumento (%)</string>
+    <string name="calc_increase_amount">Valor do aumento</string>
+    <string name="calc_increase_final">Novo valor</string>
+
+    <!-- Regra de três -->
+    <string name="calc_rule3_title">Regra de três</string>
+    <string name="calc_rule3_desc">Resolva proporções simples</string>
+    <string name="calc_rule3_a">A</string>
+    <string name="calc_rule3_b">B</string>
+    <string name="calc_rule3_c">C</string>
+    <string name="calc_rule3_x">Valor de X</string>
+
+    <!-- Juros simples -->
+    <string name="calc_simple_title">Juros simples</string>
+    <string name="calc_simple_desc">Juros sobre o valor inicial</string>
+    <string name="calc_simple_field_principal">Capital</string>
+    <string name="calc_simple_field_rate">Taxa ao mês</string>
+    <string name="calc_simple_field_months">Tempo (meses)</string>
+    <string name="calc_simple_interest">Juros</string>
+    <string name="calc_simple_total">Montante total</string>
+
+    <!-- Juros compostos -->
+    <string name="calc_compound_title">Juros compostos</string>
+    <string name="calc_compound_desc">Juros sobre juros</string>
+    <string name="calc_compound_field_principal">Capital</string>
+    <string name="calc_compound_field_rate">Taxa ao mês</string>
+    <string name="calc_compound_field_months">Período (meses)</string>
+    <string name="calc_compound_amount">Montante final</string>
+    <string name="calc_compound_interest">Juros acumulados</string>
+
+    <!-- Parcelamento -->
+    <string name="calc_installment_title">Parcelamento</string>
+    <string name="calc_installment_desc">Parcelas com juros fixos</string>
+    <string name="calc_installment_field_amount">Valor total</string>
+    <string name="calc_installment_field_rate">Juros ao mês</string>
+    <string name="calc_installment_field_count">Número de parcelas</string>
+    <string name="calc_installment_value">Valor da parcela</string>
+    <string name="calc_installment_total">Total pago</string>
+    <string name="calc_installment_interest">Juros totais</string>
+
+    <!-- Financiamento -->
+    <string name="calc_finance_title">Financiamento</string>
+    <string name="calc_finance_desc">Simulação Price e SAC</string>
+    <string name="calc_finance_field_value">Valor financiado</string>
+    <string name="calc_finance_field_rate">Taxa ao mês</string>
+    <string name="calc_finance_field_months">Prazo (meses)</string>
+    <string name="calc_finance_price_parcel">Parcela (Price)</string>
+    <string name="calc_finance_sac_first">1ª parcela (SAC)</string>
+    <string name="calc_finance_sac_last">Última parcela (SAC)</string>
+    <string name="calc_finance_total_price">Total (Price)</string>
+    <string name="calc_finance_total_sac">Total (SAC)</string>
+
+    <!-- Salário -->
+    <string name="calc_salary_title">Salário</string>
+    <string name="calc_salary_desc">Converta horas, dias e salário mensal</string>
+    <string name="calc_salary_field_month">Salário mensal</string>
+    <string name="calc_salary_hourly">Salário/hora</string>
+    <string name="calc_salary_daily">Salário/dia</string>
+    <string name="calc_salary_monthly">Salário/mês</string>
+
+    <!-- Hora extra -->
+    <string name="calc_overtime_title">Hora extra</string>
+    <string name="calc_overtime_desc">Calcule o valor das horas extras</string>
+    <string name="calc_overtime_field_hour">Salário por hora</string>
+    <string name="calc_overtime_field_pct">Percentual (%)</string>
+    <string name="calc_overtime_field_count">Número de horas</string>
+    <string name="calc_overtime_value">Valor total das horas extras</string>
+
+    <!-- Férias -->
+    <string name="calc_vacation_title">Férias</string>
+    <string name="calc_vacation_desc">Inclui o terço constitucional</string>
+    <string name="calc_vacation_field_salary">Salário mensal</string>
+    <string name="calc_vacation_field_days">Dias de férias</string>
+    <string name="calc_vacation_third">Terço constitucional</string>
+    <string name="calc_vacation_total">Total de férias</string>
+
+    <!-- 13º -->
+    <string name="calc_thirteenth_title">13º salário</string>
+    <string name="calc_thirteenth_desc">Proporcional ao período trabalhado</string>
+    <string name="calc_thirteenth_field_salary">Salário mensal</string>
+    <string name="calc_thirteenth_field_months">Meses trabalhados</string>
+    <string name="calc_thirteenth_value">Valor do 13º</string>
+
+    <!-- Rescisão -->
+    <string name="calc_termination_title">Rescisão</string>
+    <string name="calc_termination_desc">Estimativa de valores de rescisão</string>
+    <string name="calc_termination_field_salary">Salário mensal</string>
+    <string name="calc_termination_field_days">Dias trabalhados no mês</string>
+    <string name="calc_termination_field_months">Meses trabalhados</string>
+    <string name="calc_termination_value_salary">Saldo de salário</string>
+    <string name="calc_termination_value_vacation">Férias proporcionais</string>
+    <string name="calc_termination_value_third">Terço de férias</string>
+    <string name="calc_termination_value_total">Total estimado</string>
+    <string name="calc_termination_note">Estimativa simplificada. Componentes como aviso-prévio, multa do FGTS e outros verbas podem não estar incluídos e devem ser verificados com um especialista.</string>
+
+    <!-- IMC -->
+    <string name="calc_imc_title">IMC</string>
+    <string name="calc_imc_desc">Índice de massa corporal</string>
+    <string name="calc_imc_field_weight">Peso (kg)</string>
+    <string name="calc_imc_field_height">Altura (m)</string>
+    <string name="calc_imc_value">IMC</string>
+    <string name="calc_imc_category">Classificação</string>
+
+    <!-- Calorias -->
+    <string name="calc_calories_title">Calorias</string>
+    <string name="calc_calories_desc">Metabolismo basal estimado</string>
+    <string name="calc_calories_field_weight">Peso (kg)</string>
+    <string name="calc_calories_field_height">Altura (cm)</string>
+    <string name="calc_calories_field_age">Idade (anos)</string>
+    <string name="calc_calories_field_sex">Sexo</string>
+    <string name="calc_calories_bmr">Metabolismo basal</string>
+    <string name="sex_female">Feminino</string>
+    <string name="sex_male">Masculino</string>
+
+    <!-- Classificações IMC -->
+    <string name="imc_underweight">Abaixo do peso</string>
+    <string name="imc_normal">Peso normal</string>
+    <string name="imc_overweight">Sobrepeso</string>
+    <string name="imc_obesity">Obesidade</string>
+
+    <!-- Combustível -->
+    <string name="calc_fuel_title">Combustível</string>
+    <string name="calc_fuel_desc">Custo de uma viagem</string>
+    <string name="calc_fuel_field_distance">Distância (km)</string>
+    <string name="calc_fuel_field_consumption">Consumo (km/l)</string>
+    <string name="calc_fuel_field_price">Preço do combustível</string>
+    <string name="calc_fuel_cost">Custo da viagem</string>
+    <string name="calc_fuel_liters">Combustível necessário</string>
+
+    <!-- Consumo do veículo -->
+    <string name="calc_consumption_title">Consumo do veículo</string>
+    <string name="calc_consumption_desc">Km por litro</string>
+    <string name="calc_consumption_field_km">Quilômetros rodados</string>
+    <string name="calc_consumption_field_liters">Litros abastecidos</string>
+    <string name="calc_consumption_value">Consumo</string>
+
+    <!-- Divisão de conta -->
+    <string name="calc_split_title">Divisão de conta</string>
+    <string name="calc_split_desc">Divida a conta entre pessoas</string>
+    <string name="calc_split_field_total">Total da conta</string>
+    <string name="calc_split_field_people">Número de pessoas</string>
+    <string name="calc_split_field_gorjeta">Gorjeta (%)</string>
+    <string name="calc_split_per_person">Por pessoa</string>
+    <string name="calc_split_total_with">Total com gorjeta</string>
+
+    <!-- Unidades -->
+    <string name="calc_units_title">Unidades</string>
+    <string name="calc_units_desc">Comprimento, massa e temperatura</string>
+    <string name="unit_dim_length">Comprimento</string>
+    <string name="unit_dim_mass">Massa</string>
+    <string name="unit_dim_temperature">Temperatura</string>
+    <string name="unit_dim_volume">Volume</string>
+    <string name="unit_m">Metro (m)</string>
+    <string name="unit_km">Quilômetro (km)</string>
+    <string name="unit_cm">Centímetro (cm)</string>
+    <string name="unit_mm">Milímetro (mm)</string>
+    <string name="unit_mi">Milha (mi)</string>
+    <string name="unit_ft">Pé (ft)</string>
+    <string name="unit_in">Polegada (in)</string>
+    <string name="unit_kg">Quilograma (kg)</string>
+    <string name="unit_g">Grama (g)</string>
+    <string name="unit_mg">Miligrama (mg)</string>
+    <string name="unit_lb">Libra (lb)</string>
+    <string name="unit_oz">Onça (oz)</string>
+    <string name="unit_c">Celsius (°C)</string>
+    <string name="unit_f">Fahrenheit (°F)</string>
+    <string name="unit_k">Kelvin (K)</string>
+    <string name="unit_l">Litro (L)</string>
+    <string name="unit_ml">Mililitro (mL)</string>
+    <string name="unit_gal">Galão (gal)</string>
+    <string name="unit_cup">Xícara (cup)</string>
+
+    <!-- Moedas -->
+    <string name="calc_currency_title">Moedas</string>
+    <string name="calc_currency_desc">Converter entre moedas</string>
+    <string name="currency_brl">Real (R$)</string>
+    <string name="currency_usd">Dólar (US$)</string>
+    <string name="currency_eur">Euro (€)</string>
+    <string name="currency_ars">Peso argentino</string>
+    <string name="currency_pyg">Guarani paraguaio</string>
+    <string name="currency_uyu">Peso uruguaio</string>
+
+    <!-- Conversor (gerais) -->
+    <string name="converter_from">De</string>
+    <string name="converter_to">Para</string>
+    <string name="converter_swap">Inverter</string>
+    <string name="converter_value">Valor</string>
+    <string name="converter_result">Resultado</string>
+    <string name="converter_rate_note">Taxas de referência (cotações de exemplo), exibidas apenas offline. Elas podem não refletir a cotação real atual. Em versões futuras, as taxas poderão ser atualizadas automaticamente.</string>
+
+    <!-- Média escolar -->
+    <string name="calc_average_title">Média escolar</string>
+    <string name="calc_average_desc">Média das notas</string>
+    <string name="calc_average_result">Média</string>
+    <string name="calc_average_field_grade1">Nota 1</string>
+    <string name="calc_average_field_grade2">Nota 2</string>
+    <string name="calc_average_field_grade3">Nota 3</string>
+    <string name="calc_average_field_grade4">Nota 4</string>
+
+    <!-- Nota para aprovação -->
+    <string name="calc_needed_title">Nota para aprovação</string>
+    <string name="calc_needed_desc">Nota necessária na avaliação final</string>
+    <string name="calc_needed_field_current">Média atual</string>
+    <string name="calc_needed_field_passing">Nota de aprovação</string>
+    <string name="calc_needed_result">Nota necessária</string>
+    <string name="calc_needed_already">Você já está aprovado(a)!</string>
+
+    <!-- Datas / idade -->
+    <string name="calc_age_title">Idade</string>
+    <string name="calc_age_desc">Calcule sua idade em anos</string>
+    <string name="calc_age_field_day">Dia de nascimento</string>
+    <string name="calc_age_field_month">Mês de nascimento</string>
+    <string name="calc_age_field_year">Ano de nascimento</string>
+    <string name="calc_age_result">Idade</string>
+</resources>
